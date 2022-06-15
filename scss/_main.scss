@@ -1,0 +1,50 @@
+$colorPag:#9f0000;
+$colorFondo:#242424;
+$colorFlecha:#0101c5;
+
+@mixin flecha ($colorPag){
+    background-color: $colorPag;  
+}
+
+.main{
+    grid-area:main;
+    display: flex;
+    flex-direction: column;
+    .banner{
+        text-align: center;
+        }
+    .botonIzq{
+        @include flecha($colorPag);
+        margin-left: 10rem;
+    }
+    .botonDer{
+        @include flecha($colorFlecha);
+        margin-right: 10rem;
+        }
+    .seccionOfertas{
+        text-align: center;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        margin-bottom: 5rem;
+        padding: 1rem;
+        .divOfertas{
+            text-align: center;
+            .ofertas{text-align: center;
+                margin: 2rem;
+                color: $colorPag;
+            }
+        }
+        .im{
+            margin: 1rem;
+            border: $colorPag solid;
+            transition: all 0.4s ease;
+            &:hover{
+                transform: scale(1.1,1.1);
+                height: auto;
+            }    
+        }  
+    }      
+}
+
+
+         /*Hasta aca va el main*/

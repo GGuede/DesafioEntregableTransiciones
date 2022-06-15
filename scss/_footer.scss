@@ -1,0 +1,19 @@
+$colorPag:#9f0000;
+$colorFondo:#242424;
+$colorFlecha:#0101c5;
+
+.footer{
+    background-color: white;
+    padding: 2rem;
+    grid-area: footer;
+    margin-top: -4rem;
+    .listaFooter{
+        display: flex;
+        justify-content: space-between;
+        .redesSociales{
+            word-spacing: 1rem;
+        }
+    }
+}
+
+        /*Hasta aca va el footer*/  

@@ -1,0 +1,5 @@
+se le agrego Keywords a cada uno de los htmls con palabras relacionadas a su contenido y buscar un mejor posicionamiento a la hora de busquedas
+se le agreo un descripcion a cada html explicando un poco su contenido
+se le puso encabezado a cada html con su nombre y nombre relacionado del html en cuestion
+se utiliza los titulos justos y necesarios con nombre de lo que se busca en el navegador y tiene que ver con lo que ofrece la pagina
+agregue extends y un mixin lo agregue para demostrar el uso del mismo lo puse en las flechas del banner con colores de fondo para el ejercicio pero en la pagina terminada no van a tener ese color
