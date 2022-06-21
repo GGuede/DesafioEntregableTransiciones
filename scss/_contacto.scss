@@ -15,7 +15,8 @@ $colorFlecha:#0101c5;
     margin:1rem;
     margin-left: 10rem;
     padding: 1rem;
-    font-size: 2rem;}
+    font-size: 2rem;
+    display: block}
 .cajas{
     @extend .nombresContacto;
     border:solid $colorPag;
